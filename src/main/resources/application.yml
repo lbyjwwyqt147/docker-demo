@@ -1,0 +1,13 @@
+server:
+  port: 18081
+spring:
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 192.168.255.128:9300
+      #properties:
+       # path:
+      #   logs: ./elasticsearch/log   #日志存储目录
+       #  data: ./elasticsearch/data # 数据存储目录
+
+
